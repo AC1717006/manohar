@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npm install *)",
+      "Bash(npx prisma *)",
+      "Bash(NODE_OPTIONS=\"--use-system-ca\" npx prisma generate)",
+      "Bash(npx tsc *)",
+      "Bash(npx --yes create-next-app@latest frontend --ts --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --use-npm --turbopack)",
+      "Bash(npm audit *)",
+      "Bash(node -e \"console.log\\(require\\('./package.json'\\).dependencies.next\\)\")",
+      "Bash(sed -i 's#/images/products/[a-z0-9-]*\\\\.jpg#/images/placeholder.svg#g' prisma/seed.ts)",
+      "Read(//d/d/manohar/backend/prisma/**)"
+    ]
+  }
+}
