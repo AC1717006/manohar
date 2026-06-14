@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <rect width="240" height="240" fill="#f4e4ba"/>
+  <g fill="#0a0807">
+    <rect x="20" y="20" width="60" height="60"/>
+    <rect x="160" y="20" width="60" height="60"/>
+    <rect x="20" y="160" width="60" height="60"/>
+    <rect x="100" y="20" width="20" height="20"/>
+    <rect x="140" y="40" width="20" height="20"/>
+    <rect x="100" y="100" width="40" height="40"/>
+    <rect x="160" y="100" width="20" height="20"/>
+    <rect x="200" y="120" width="20" height="20"/>
+    <rect x="100" y="160" width="20" height="20"/>
+    <rect x="140" y="180" width="40" height="20"/>
+    <rect x="180" y="160" width="20" height="40"/>
+  </g>
+  <text x="120" y="232" font-family="Arial" font-size="12" fill="#0a0807" text-anchor="middle">
+    Scan to Pay (UPI)
+  </text>
+</svg>
